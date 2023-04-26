@@ -1,0 +1,74 @@
+.contactWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.contactList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.listHeader button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: #7c3aed;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.item{
+    background-color: #fff;
+    min-width: 20rem;
+    width: 30rem;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.item .btnEdit{
+    margin-right: 1rem;
+    color: #7c3aed;
+    border: 1px solid #7c3aed;
+}
+
+.item button{
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #dc2626;
+    background-color: #fff;
+    color: #dc2626;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.itemDiv{
+    display: flex;
+    align-items: center;
+}
+
+.itemDiv div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemDiv img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
